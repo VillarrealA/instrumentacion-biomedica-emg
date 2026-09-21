@@ -1,0 +1,6 @@
+frecuencia_hz,entrada_vpp,entrada_offset_v,entrada_min_v,entrada_max_v,salida_vpp,salida_offset_v,salida_min_v,salida_max_v,ganancia_medida,saturacion,observaciones
+20,,,,,,,,,,, 
+50,,,,,,,,,,, 
+100,,,,,,,,,,, 
+250,,,,,,,,,,, 
+450,,,,,,,,,,, 

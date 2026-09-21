@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Datos fisiológicos crudos de participantes
+datos/crudos/*
+!datos/crudos/README.md
+
+# Descargas locales de PhysioNet; el programa conserva la URL y atribución
+datos/physionet/
+
+# Series temporales procesadas de participantes. Se publican resúmenes,
+# métricas y figuras, no archivos muestra por muestra.
+resultados/equipo*/**/*_procesada.csv
+
+# Archivos temporales
+*.tmp
+*.log

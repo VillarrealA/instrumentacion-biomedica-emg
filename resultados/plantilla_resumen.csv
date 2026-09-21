@@ -1,0 +1,10 @@
+fuente,registro,condicion,separacion_mm,ventana_inicio_s,ventana_fin_s,fs_hz,rms,mav,potencia_espectral_banda,frecuencia_media_hz,frecuencia_mediana_hz,cruces_por_cero,longitud_forma_onda,observacion
+Vernier,d1,contraccion,,,,,,,,,,,,
+Vernier,d2,contraccion,,,,,,,,,,,,
+Vernier,d3,contraccion,,,,,,,,,,,,
+Arduino,d1,contraccion,,,,,,,,,,,,
+Arduino,d2,contraccion,,,,,,,,,,,,
+Arduino,d3,contraccion,,,,,,,,,,,,
+PhysioNet,registro_1,no_aplica,,,,,,,,,,,,
+PhysioNet,registro_2,no_aplica,,,,,,,,,,,,
+PhysioNet,registro_3,no_aplica,,,,,,,,,,,,
