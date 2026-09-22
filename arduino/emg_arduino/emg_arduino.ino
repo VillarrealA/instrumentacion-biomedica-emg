@@ -4,9 +4,9 @@
   Salida serie: t_us,adc
   Configuración inicial: A0, 2000 muestras/s, 500000 baud.
 
-  IMPORTANTE: úsese sólo con el montaje revisado por el docente. Un sistema
+  IMPORTANTE: úsen sólo con el montaje revisado por el profesor. Un sistema
   conectado a una persona requiere alimentación, aislamiento y protección
-  adecuados. No conecte un montaje corporal no evaluado a una computadora
+  adecuados. No conecten un montaje corporal no evaluado a una computadora
   alimentada desde la red.
 */
 
@@ -19,7 +19,7 @@ uint32_t siguienteMuestra = 0;
 
 void setup() {
   Serial.begin(BAUD_RATE);
-  analogReference(DEFAULT);
+
   delay(1000);
   Serial.println("t_us,adc");
   siguienteMuestra = micros();
