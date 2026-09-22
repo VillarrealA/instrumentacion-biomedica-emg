@@ -20,6 +20,9 @@ uint32_t siguienteMuestra = 0;
 void setup() {
   Serial.begin(BAUD_RATE);
 
+  // No se fija la referencia ni la resolución desde el programa. Tanto el
+  // Mega 2560 como el UNO R4 WiFi inician en el modo compatible de 10 bits
+  // empleado por captura_arduino.py. La entrada debe permanecer entre 0 y 5 V.
   delay(1000);
   Serial.println("t_us,adc");
   siguienteMuestra = micros();

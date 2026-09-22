@@ -66,6 +66,7 @@ Para cada fuente se registran, cuando estén disponibles:
 ```text
 instrumentacion-biomedica-emg/
 ├── README.md
+├── CAMBIOS_VERSION.md
 ├── requirements.txt
 ├── environment.yml
 ├── .gitignore
@@ -85,6 +86,7 @@ instrumentacion-biomedica-emg/
 │
 ├── docs/
 │   ├── GUIA_ESTACIONES.md
+│   ├── USO_PROGRAMAS_PYTHON.md
 │   └── PUBLICACION_GIT.md
 │
 ├── config/
@@ -114,6 +116,18 @@ python -m pip install -r requirements.txt
 conda env create -f environment.yml
 conda activate emg-instrumentacion
 ```
+
+## Guía completa de los programas
+
+Antes de realizar las estaciones, consulte
+[`docs/USO_PROGRAMAS_PYTHON.md`](docs/USO_PROGRAMAS_PYTHON.md). La guía explica:
+
+- cómo instalar y comprobar Python;
+- qué programa corresponde a cada estación;
+- cómo capturar desde Arduino y analizar archivos CSV;
+- qué archivos produce cada comando;
+- cómo comparar resultados y qué conservar en Git;
+- cómo resolver los errores más frecuentes.
 
 ## Comprobación inicial
 
