@@ -4,10 +4,10 @@
   Salida serie: t_us,adc
   Configuración inicial: A0, 2000 muestras/s, 500000 baud.
 
-  IMPORTANTE: úsen sólo el montaje previamente revisado por el profesor o ayudante. 
-  Un sistema conectado a una persona requiere alimentación, aislamiento y protección
-  adecuados. No conecte un montaje corporal no evaluado a una computadora alimentada 
-  desde la red.
+  IMPORTANTE: úsese sólo con el montaje revisado por el docente. Un sistema
+  conectado a una persona requiere alimentación, aislamiento y protección
+  adecuados. No conecte un montaje corporal no evaluado a una computadora
+  alimentada desde la red.
 */
 
 const uint8_t EMG_PIN = A0;
